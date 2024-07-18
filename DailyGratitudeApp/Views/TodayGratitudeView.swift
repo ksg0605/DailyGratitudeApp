@@ -10,10 +10,10 @@ import SwiftUI
 struct TodayGratitudeView: View {
     @EnvironmentObject var viewModel: GratitudeViewModel
     @State private var currentNote: String = ""
-    
+   
     var body: some View {
-        VStack(spacing: 20){
-            Text("너는 오늘 무엇에 감사해?")
+        VStack(spacing: 20) {
+            Text("What are you grateful for today?")
                 .font(.title)
                 .multilineTextAlignment(.center)
             TextEditor(text: $currentNote)
@@ -23,7 +23,7 @@ struct TodayGratitudeView: View {
                 viewModel.addNote(note: currentNote)
                 currentNote = ""
             }) {
-                Text("노트 추가")
+                Text("Add Note")
                     .padding()
                     .background(Color.orange)
                     .foregroundColor(.white)
@@ -33,4 +33,8 @@ struct TodayGratitudeView: View {
         }
         .padding()
     }
+}
+
+#Preview {
+    TodayGratitudeView()
 }

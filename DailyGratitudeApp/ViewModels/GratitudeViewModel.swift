@@ -17,11 +17,8 @@ class GratitudeViewModel: ObservableObject {
     }
     
     func saveNotes() {
-        do {
-            let data = try JSONEncoder().encode(notes)
+        if let data = try? JSONEncoder().encode(notes) {
             UserDefaults.standard.set(data, forKey: "gratitudeNotes")
-        } catch {
-            print("저장 실패")
         }
     }
     
