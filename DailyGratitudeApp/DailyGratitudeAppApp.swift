@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct DailyGratitudeAppApp: App {
+struct DailyGratitudeApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(GratitudeViewModel())
         }
     }
 }
