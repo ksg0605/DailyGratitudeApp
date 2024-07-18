@@ -13,6 +13,7 @@
 		0848E7092C48945600E99736 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0848E7082C48945600E99736 /* Preview Assets.xcassets */; };
 		0848E7152C489EE700E99736 /* GratitudeNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0848E7142C489EE700E99736 /* GratitudeNote.swift */; };
 		0848E7172C489F7900E99736 /* GratitudeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0848E7162C489F7900E99736 /* GratitudeViewModel.swift */; };
+		0848E7192C48A29C00E99736 /* TodayGratitudeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0848E7182C48A29C00E99736 /* TodayGratitudeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		0848E7082C48945600E99736 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0848E7142C489EE700E99736 /* GratitudeNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeNote.swift; sourceTree = "<group>"; };
 		0848E7162C489F7900E99736 /* GratitudeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeViewModel.swift; sourceTree = "<group>"; };
+		0848E7182C48A29C00E99736 /* TodayGratitudeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayGratitudeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				0848E7032C48945300E99736 /* ContentView.swift */,
+				0848E7182C48A29C00E99736 /* TodayGratitudeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			files = (
 				0848E7172C489F7900E99736 /* GratitudeViewModel.swift in Sources */,
 				0848E7042C48945300E99736 /* ContentView.swift in Sources */,
+				0848E7192C48A29C00E99736 /* TodayGratitudeView.swift in Sources */,
 				0848E7152C489EE700E99736 /* GratitudeNote.swift in Sources */,
 				0848E7022C48945300E99736 /* DailyGratitudeAppApp.swift in Sources */,
 			);
